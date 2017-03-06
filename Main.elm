@@ -95,7 +95,7 @@ viewImagePreview model image =
             [ src image.contents
             , title image.filename
             , style
-                [ ( "width", "750px" )
+                [ ( "width", "500px" )
                 , ( "height", "500px" )
                 ]
             ]
