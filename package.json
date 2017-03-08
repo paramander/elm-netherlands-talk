@@ -1,13 +1,11 @@
 {
-  "name": "elm-twitch-chat-example",
+  "name": "elm-file-upload-poc",
   "version": "1.0.0",
-  "description": "An Elm implementation of Twitch WebSocket chat",
+  "description": "An introduction to hot reloading Elm code",
   "author": "Tolga Paksoy",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --port 8000 --hot --content-base src/",
-    "build": "rimraf dist && webpack",
-    "watch": "webpack --watch"
+    "start": "webpack-dev-server --port 8000 --hot"
   },
   "devDependencies": {
     "autoprefixer": "6.3.7",
@@ -15,14 +13,12 @@
     "css-loader": "0.23.1",
     "elm-css": "0.6.0",
     "elm-css-webpack-loader": "2.0.2",
-    "elm-github-install": "^0.1.0",
     "elm-hot-loader": "^0.5.4",
     "elm-webpack-loader": "^4.1.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "0.9.0",
     "html-webpack-plugin": "2.22.0",
     "postcss-loader": "0.10.0",
-    "rimraf": "2.5.3",
     "style-loader": "0.13.1",
     "unminified-webpack-plugin": "1.1.0",
     "webpack": "1.13.1",
