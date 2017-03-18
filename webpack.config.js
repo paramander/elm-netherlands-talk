@@ -43,7 +43,8 @@ var common = {
             name: "init",
             minChunks: Infinity
         }),
-        new Webpack.optimize.OccurenceOrderPlugin()
+        new Webpack.optimize.OccurenceOrderPlugin(),
+        new Webpack.NoErrorsPlugin()
     ],
 
     postcss: [AutoPrefixer({
